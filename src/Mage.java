@@ -1,8 +1,5 @@
-public class Mage extends Unit{
+public class Mage extends Unit {
     public Mage() {
-        setName("Mage");
-        maxHP = 70;
-        setHealth(maxHP);
-        setDamage(50);
+        super("Mage", 70, 50, 70);
     }
 }

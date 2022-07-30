@@ -1,6 +1,6 @@
 public class Barrack {
     Unit createUnit(String typeOfTroops) {
-        Unit unit=null;
+        Unit unit = null;
         switch (typeOfTroops) {
             case "Mage":
                 unit = new Mage();

@@ -1,4 +1,4 @@
 public interface Actionable {
-    public void attack(Unit target);
-    public void healing(int medKit);
+    void attack(Unit target);
+    void healing(int medKit);
 }
